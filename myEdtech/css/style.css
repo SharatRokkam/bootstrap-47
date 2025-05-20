@@ -1,6 +1,6 @@
 * {
   font-family: "Inter", sans-serif;
-  background-color: #f0faff;
+  /* background-color: #f0faff; */
 }
 
 .logo-img {
@@ -34,7 +34,7 @@
 
 .bannerContent h1 span {
   color: #2699fb;
-  background: url("../assets/zigzag-removebg-preview.png") no-repeat bottom;
+  /* background: url("../assets/zigzag-removebg-preview.png") no-repeat bottom; */
 }
 
 .bannerContent p {
@@ -87,4 +87,12 @@
   border: none;
   padding: 10px 12px;
   border-radius: 8px;
+}
+
+.courseSection h1 {
+  color: #2699fb;
+  font-weight: 700;
+}
+.courseSection p{
+  font-weight: 600;
 }

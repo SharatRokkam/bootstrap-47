@@ -23,8 +23,44 @@
 
 <body>
 
+    <!--Enquiry Modal -->
+    <div class="modal fade" id="EnModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Enquire Now</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <h3>Book your free class Now!</h3>
+                        <p>2 Days of free class without paying in advance</p>
+
+                        <div class="mb-3">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control" placeholder="Name" />
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Phone</label>
+                            <input type="text" class="form-control" placeholder="Phone">
+                        </div>
+
+                        <div class="mb-3">
+                            <button class="formBtn">
+                                Register Now
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
     <!-- Navigation Bar  -->
-    <header class="container-fluid shadow-lg py-2 position-sticky pt-0">
+    <header class="container-fluid shadow-lg py-2 sticky-top pt-0">
         <div class="container">
             <div class="row align-items-center">
                 <figure class="col-lg-6 col-sm-6 col-12 text-lg-start text-center mb-0 pb-0">
@@ -45,7 +81,7 @@
     <!-- hero section goes here  -->
     <section class="container-fluid py-lg-5 py-sm-4 py-3">
         <div class="container">
-            <div class="row d-flex justify-content-between">
+            <div class="row d-flex justify-content-between gy-5">
                 <div class="col-lg-6">
                     <div class="bannerContent">
                         <h1>Promise to make you!<br><span>Full Stack Developer</span> </h1>
@@ -62,15 +98,16 @@
 
 
                         <div class="bannerContentBtn d-flex gap-3">
-                            <button class="demoBtn">Book 2 Days Demo</button>
+                            <button class="demoBtn" data-bs-toggle="modal" data-bs-target="#EnModal">Book 2 Days
+                                Demo</button>
                             <button class="downloadBtn">Download Curriculum</button>
                         </div>
                     </div>
 
 
                 </div>
-                <div class="col-lg-5 shadow-lg">
-                    <form action="" class="bannerForm">
+                <div class="col-lg-5 shadow-lg border rounded-4">
+                    <form action="" class="bannerForm ">
                         <h3>Book your free class Now!</h3>
                         <p>2 Days of free class without paying in advance</p>
 
@@ -98,8 +135,104 @@
             </div>
         </div>
 
+
+        <div class="container shadow-lg my-5 courseSection">
+            <div class="row p-2 row-cols-lg-5 row-cols-sm-3 row-cols-2">
+                <div class="col ">
+                    <h1>1000+</h1>
+                    <p>Trained</p>
+                </div>
+                <div class="col">
+                    <h1>100+</h1>
+                    <p>Hours</p>
+                </div>
+                <div class="col">
+                    <h1>21 May</h1>
+                    <p>Next Batch</p>
+                </div>
+                <div class="col">
+                    <h1>1000+</h1>
+                    <p>Trained</p>
+                </div>
+                <div class="col">
+                    <h1>1000+</h1>
+                    <p>Trained</p>
+                </div>
+
+            </div>
+        </div>
     </section>
 
+
+    <div class="container px-4 " id="icon-grid">
+        <h2 class="pb-2 border-bottom text-center fw-bold">Course Content</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+            <div class="col d-flex flex-column justify-content-center">
+                <i class="fa-brands fa-html5"></i>
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML</h3>
+                </div>
+            </div>
+            <div class="col d-flex flex-column justify-content-center">
+                <i class="fa-brands fa-html5"></i>
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML</h3>
+                </div>
+            </div>
+            <div class="col d-flex flex-column justify-content-center">
+                <i class="fa-brands fa-html5"></i>
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML</h3>
+                </div>
+            </div>
+            <div class="col d-flex flex-column justify-content-center">
+                <i class="fa-brands fa-html5"></i>
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML</h3>
+                </div>
+            </div>
+            <div class="col d-flex flex-column justify-content-center">
+                <i class="fa-brands fa-html5"></i>
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML</h3>
+                </div>
+            </div>
+            <div class="col d-flex flex-column justify-content-center">
+                <i class="fa-brands fa-html5"></i>
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML</h3>
+                </div>
+            </div>
+            <div class="col d-flex flex-column justify-content-center">
+                <i class="fa-brands fa-html5"></i>
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML</h3>
+                </div>
+            </div>
+            <div class="col d-flex flex-column justify-content-center">
+                <i class="fa-brands fa-html5"></i>
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">© 2025 copyright reserved to Sharat Rokkam</p>
+        </footer>
+    </div>
 
 
 

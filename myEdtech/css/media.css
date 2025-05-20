@@ -45,11 +45,9 @@
     flex-direction: column;
   }
 
-  .bannerContentBtn button {
-    width: 100%;
-  }
-
- 
+    .bannerContentBtn button {
+      width: 100%;
+    }
 }
 
 @media only screen and (min-width: 575px) and (max-width: 992px) {
